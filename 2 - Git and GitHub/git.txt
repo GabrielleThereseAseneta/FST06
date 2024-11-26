@@ -9,4 +9,5 @@
 2. Staging Area - git add .
 3. Commit Area - git commit -m "This is the description"
 
-# git log
+# git log - used to track a branch's commit history
+
