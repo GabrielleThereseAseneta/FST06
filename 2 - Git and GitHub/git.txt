@@ -11,3 +11,13 @@
 
 # git log - used to track a branch's commit history
 
+BRANCH
+# Create a BRANCH
+git branch [branch_name]
+
+# List all branches
+git branch -a
+
+# Switch to a different branch
+git checkout [branch_name]
+git switch [branch_name]
