@@ -1,0 +1,12 @@
+# git config --global user.name - configure username
+# git config --global user.email - configure email
+# git config user.name - to check if username is configured successfully
+# git config user.email - to check if email is configured successfully
+# git status - this will show the status of our files and folders
+
+3 STAGES STRUCTURE
+1. Working Area - git init(initialize an empty repository for our current folder)
+2. Staging Area - git add .
+3. Commit Area - git commit -m "This is the description"
+
+# git log
