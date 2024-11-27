@@ -38,4 +38,57 @@ git push
 
 # Remove commit
 git reset HEAD~1
-git commit --amend
+git commit --amend# Git Configuration
+git config --global user.name "Your Name"  # configure username
+git config --global user.email "your@email.com"  # configure email
+
+# Verify Configuration
+git config user.name  # check if username is configured successfully
+git config user.email  # check if email is configured successfully
+
+# Git Status
+git status  # show the status of files and folders
+
+# 3 Stages Structure
+## Working Area
+git init  # initialize an empty repository for the current folder
+
+## Staging Area
+git add .  # stage all changes
+
+## Commit Area
+git commit -m "Initial commit"  # commit changes with a meaningful message
+
+# Commit History
+git log  # track a branch's commit history
+
+# Branching
+## Create a Branch
+git branch feature/new-feature  # create a new branch
+
+## List All Branches
+git branch -a  # list all local and remote branches
+
+## Switch to a Different Branch
+git checkout feature/new-feature  # switch to the new branch
+git switch feature/new-feature  # alternative way to switch branches
+
+## Merging Feature Branch to Main Branch
+git checkout main  # switch to the main branch
+git merge feature/new-feature  # merge the feature branch into the main branch
+
+# GitHub
+## Create a Remote Repository
+# Create a new repository on GitHub and copy the HTTPS link
+
+## Link Local Repository to Remote Repository
+git remote add origin https://github.com/username/repository.git  # link local repository to remote repository
+git branch -M main  # rename the main branch to 'main'
+git push -u origin main  # push the main branch to the remote repository
+
+## Push Commits to Remote Repository
+git push  # push commits to the remote repository
+
+## Remove Last Commit
+git reset HEAD~1  # remove the last commit
+git commit --amend  # amend the previous commit
