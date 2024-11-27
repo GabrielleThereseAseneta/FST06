@@ -24,3 +24,18 @@ git switch [branch_name]
 
 # Merging feature branch to our master/main branch
 git merge
+
+Github
+# Create a remote repository
+New > New Repository > Type in the name of Remote Repository
+
+git remote add origin "HTTPS link that GitHub will automatically create"
+git branch -M main
+git push -u origin main
+
+# Push commits to the remote repository
+git push
+
+# Remove commit
+git reset HEAD~1
+git commit --amend
