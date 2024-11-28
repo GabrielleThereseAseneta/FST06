@@ -1,0 +1,81 @@
+#text-styling {
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+
+  /* Keyword Values */
+  font-weight: normal;
+  font-weight: bold;
+  font-weight: bolder;
+
+  /* Numeric Values */
+  /* 100 - 950 */
+  font-weight: 100;
+  font-weight: 500;
+  font-weight: 950;
+
+  /* Font-style */
+  font-style: normal;
+  font-style: italic;
+  font-style: oblique;
+
+  /* Text-align */
+  text-align: center;
+  text-align: right;
+  text-align: left;
+
+  /* Line Height */
+  line-height: normal;
+  line-height: 2.5;
+  line-height: 90%;
+  line-height: 30px;
+
+  /* Letter spacing */
+  letter-spacing: normal;
+  letter-spacing: 4px;
+  letter-spacing: -2px;
+}
+
+/* TEXT DECORATION */
+#text-decoration {
+  text-decoration: none;
+  text-decoration: underline;
+  text-decoration: overline;
+  text-decoration: line-through;
+
+  text-decoration-style: solid;
+  text-decoration-style: double;
+  text-decoration-style: dashed;
+  text-decoration-style: dotted;
+  text-decoration-style: wavy;
+
+  text-decoration-color: red;
+  text-decoration-thickness: 5px;
+  text-decoration: underline overline line-through;
+  text-decoration: underline solid red 50%;
+}
+
+#colors {
+  /* Color Names */
+  color: white;
+  background-color: tomato /* RGB - Red , Green, Blue */ /* rgb 0 - 255 */
+    /* RGBA - Red , Green, Blue , Alpha */
+    /* 0 -1 , 0 - Full Transparent , 1 - Full Opaque */ color rgb(255, 255, 0);
+  background-color: rgba(0, 0, 255, 0.7);
+
+  /* Hexadecimal */
+  /* #RRGGBB */
+  /* 0 - 9, A -F */
+  color: #00b4d8;
+  background-color: #3a5a40;
+}
+
+#absolute-unit-px {
+  font-size: 28px;
+}
+
+#relative-unit-em {
+  font-size: 2em;
+}
+
+#relative-unit-rem {
+  font-size: 3rem;
+}
