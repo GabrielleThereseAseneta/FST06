@@ -1,0 +1,32 @@
+/* Relative to it's original position */
+#relative {
+  background-color: aqua;
+  position: relative;
+  /* top / right / bottom / left */
+  top: 80px;
+  left: 200px;
+}
+
+/* Relative to the parent container that have a position that is not static */
+#absolute {
+  background-color: burlywood;
+  position: absolute;
+  /* top / right / bottom / left */
+
+  top: 0px;
+  right: 0px;
+}
+
+#fixed {
+  background-color: cadetblue;
+  position: fixed;
+  /* top / right / bottom / left */
+  top: 10px;
+}
+
+#sticky {
+  background-color: darkkhaki;
+  position: sticky;
+  /* top / right / bottom / left */
+  top: 0px;
+}
