@@ -7,15 +7,15 @@ comment
 */
 
 //  let - mutable/changeable
-let firstName = "Ansen"
+let firstName = "Ansen";
 console.log("Firstname: ", firstName);
-firstName = "Eric"
+firstName = "Eric";
 console.log("Firstname: ", firstName);
 
 // var - mutable/changeable
-var lastName = "Doe"
+var lastName = "Doe";
 console.log("Last Name: ", lastName);
-lastName = "Smith"
+lastName = "Smith";
 console.log("Last Name: ", lastName);
 
 // const - unmutable/unchangeable
@@ -24,11 +24,10 @@ console.log("Birthday: ", birthday);
 // birthday = "02-12-1996" This will not work
 
 if (true) {
-    var email = "jamessmith123@gmail.com";
-    let userName = "jamessmith"
-    
-    console.log(userName);
-    
+  var email = "jamessmith123@gmail.com";
+  let userName = "jamessmith";
+
+  console.log(userName);
 }
 console.log(email);
 console.clear();
@@ -41,10 +40,10 @@ console.log("Type of first name: ", typeof firstname);
 // typeof operator: determines the type of a variable (built-in operator)
 
 // Number: represent numeric values (e.g 30 , -30 , 3.14)
-let age = 30
+let age = 30;
 console.log("Age: ", age);
 console.log("Type of age: ", typeof age);
-let decimal = 3.14
+let decimal = 3.14;
 console.log("Decimal: ", decimal);
 console.log("Type of decimal: ", typeof decimal);
 
@@ -85,9 +84,9 @@ let num3 = 10;
 let num4 = 5;
 let num5 = 2;
 
-console.log("Result: ", num3 / num4 * num5);
+console.log("Result: ", (num3 / num4) * num5);
 
-let answer = 3 + (4 * (5 -2) ** 2) /2;
+let answer = 3 + (4 * (5 - 2) ** 2) / 2;
 console.log("Result: ", answer);
 
 // 2. String Expressions or Concatenation
@@ -97,12 +96,12 @@ console.log(greeting + " " + myName + "!");
 
 // 3. Comparison Operators
 // Equal Operator "==": check if the two values are equal
-console.log("Equal to (==)", 5 == 5 );
-console.log("Equal to (==) with type coercion", 5 == '5' );
+console.log("Equal to (==)", 5 == 5);
+console.log("Equal to (==) with type coercion", 5 == "5");
 
 // Not Equal to '!=': check if the two values are not equal
 console.log("Not Equal to (!-):", 5 != 5);
-console.log("Not Equal to (!=) with type coercion", 5 == '5' );
+console.log("Not Equal to (!=) with type coercion", 5 == "5");
 
 // Strict Equal to '===': check if two values are equal in value and type
 console.log("Strict Equal to (===):", 5 === 5);
@@ -115,3 +114,43 @@ console.log("Greater Than (>):", 5 > 3);
 console.log("Less Than (<):", 3 < 5);
 console.log("Greater Than or Equal (>=):", 5 >= 3);
 console.log("Less Than or Equal (<=):", 3 <= 5);
+
+console.clear();
+let sunny = true;
+let warm = true;
+// AND: True only if all conditions are met
+console.log("Is it sunny AND warm?", sunny && warm);
+
+// OR: True only if at least one condition is met
+console.log("Is it sunny AND warm?", sunny || warm);
+// NOT: Inverts the boolean value
+console.log("NOT sunny?", !sunny);
+
+//5. Assignment Expression
+// Assigning a value to a variable
+let num7 = 10;
+let num8 = 5;
+// Addition Assignment +=
+num7 += num8;
+console.log(num7);
+// Subtraction Assignment -=
+// Computation - 15 - 5 = 10
+num7 -= num8;
+console.log(num7);
+// Multiplication Assignment *=
+// Computation = 10 * 5 = 50
+num7 *= num8;
+console.log(num7);
+// Division Assignment /=
+// Computation = 50 / 5 = 10
+num7 /= num8;
+console.log(num7);
+
+// Exponent Assignment **=
+// Computation = 10 ** 5 = 100000
+num7 **= num8;
+console.log(num7);
+// Modulo/Remainder Assignment %=
+// Computation = 100000 % 5 = 0
+num7 %= num8;
+console.log(num7);
